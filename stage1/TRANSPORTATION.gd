@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2341
+Password=2937
 Database=
 DateFormat=
 CommitCount=0
@@ -13,34 +13,34 @@ InitScript=
 
 [Table]
 Owner=
-Name=DESTINATIONS
+Name=TRANSPORTATION
 Count=400
 
 [Record]
-Name=NAME
+Name=NUMBER_OF_PASSENGERS
+Type=NUMBER
+Size=
+Data=Random(20,50)
+Master=
+
+[Record]
+Name=DRIVER
 Type=VARCHAR2
 Size=15
 Data=FirstName
 Master=
 
 [Record]
-Name=ID_DESTINATIONS
+Name=ID_TRANSPORTATION
 Type=NUMBER
 Size=
-Data=Sequence(1, 1, 400)
+Data=Sequence(1,1,400)
 Master=
 
 [Record]
-Name=DESCRIPTION
-Type=VARCHAR2
-Size=100
-Data='The jurney begins: '+Text(90, 6, 5)
-Master=
-
-[Record]
-Name=ID_TRIP
-Type=NUMBER
+Name=DURATION_TIME
+Type=DATE
 Size=
-Data=Sequence(1, 1, 400)
+Data=Random(DD.MM.YYYY)
 Master=
 

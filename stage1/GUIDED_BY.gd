@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2477
+Password=2295
 Database=
 DateFormat=
 CommitCount=0
@@ -13,14 +13,14 @@ InitScript=
 
 [Table]
 Owner=
-Name=TRIPS
+Name=GUIDED_BY
 Count=400
 
 [Record]
-Name=NAME
-Type=VARCHAR2
-Size=15
-Data=FirstName
+Name=PRICE
+Type=NUMBER
+Size=
+Data=Random(5000,9000)
 Master=
 
 [Record]
@@ -31,23 +31,9 @@ Data=Sequence(1,1,400)
 Master=
 
 [Record]
-Name=PRICE
-Type=NUMBER
-Size=
-Data=Random(1000,4000)
-Master=
-
-[Record]
-Name=ID_TRANSPORTATION
+Name=ID_GUARD
 Type=NUMBER
 Size=
 Data=Sequence(1,1,400)
-Master=
-
-[Record]
-Name=TRIP_DATE
-Type=DATE
-Size=
-Data=Random(dd.mm.yyyy)
 Master=
 

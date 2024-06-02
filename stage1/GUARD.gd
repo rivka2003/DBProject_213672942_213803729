@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2020
+Password=2408
 Database=
 DateFormat=
 CommitCount=0
@@ -36,4 +36,10 @@ Type=VARCHAR2
 Size=15
 Data=SQL(SELECT '05' || LPAD(TRUNC(DBMS_RANDOM.VALUE(100000, 999999)), 5, '0') FROM DUAL)
 Master=
+
+
+[Table]
+Owner=C##RIVKA
+Name=TRAVELERS
+Count=10..20
 

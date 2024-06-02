@@ -4,16 +4,16 @@ Version=1
 
 [Preferences]
 Username=
-Password=2341
+Password=2185
 Database=
 DateFormat=
-CommitCount=0
+CommitCount=100
 CommitDelay=0
 InitScript=
 
 [Table]
 Owner=
-Name=DESTINATIONS
+Name=TRAVELERS
 Count=400
 
 [Record]
@@ -24,23 +24,16 @@ Data=FirstName
 Master=
 
 [Record]
-Name=ID_DESTINATIONS
+Name=YEAR_OF_BIRTH
 Type=NUMBER
 Size=
-Data=Sequence(1, 1, 400)
+Data=Random(2000,2022)
 Master=
 
 [Record]
-Name=DESCRIPTION
-Type=VARCHAR2
-Size=100
-Data='The jurney begins: '+Text(90, 6, 5)
-Master=
-
-[Record]
-Name=ID_TRIP
+Name=ID_TRAVELS
 Type=NUMBER
 Size=
-Data=Sequence(1, 1, 400)
+Data=Sequence(1,1,400)
 Master=
 
