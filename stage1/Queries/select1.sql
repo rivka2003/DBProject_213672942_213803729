@@ -1,0 +1,28 @@
+--Description/Story
+--Scenario: The company wants to analyze and understand the performance and characteristics of their trips, particularly focusing on more exclusive trips that command higher prices and utilize larger transportation means.
+
+--Purpose: The primary aim is to provide insights into trips that have higher-than-average prices and to evaluate how these trips are distributed over time. This can help the company in planning and marketing future trips by identifying trends and popular destinations associated with premium pricing.
+
+--Use Case:
+--Marketing Team: They can use this information to identify which high-priced trips are more popular and which destinations are more appealing to customers willing to pay more. This helps in creating targeted marketing campaigns.
+--Logistics Team: Understanding which trips utilize larger transportation means can aid in optimizing resource allocation and planning for future trips.
+--Financial Team: Analyzing the average price for trips using specific transportation can help in budgeting and financial forecasting.
+
+SELECT 
+    t.name AS TripName, 
+    d.name AS DestinationName,
+    EXTRACT(DAY FROM t.trip_date) AS TripDay,
+    EXTRACT(MONTH FROM t.trip_date) AS TripMonth,
+    EXTRACT(YEAR FROM t.trip_date) AS TripYear,
+    (SELECT AVG(price) FROM trip WHERE id_transportation = t.id_transportation) AS AvgPriceForTransport
+FROM 
+    trip t
+JOIN 
+    destinations d ON t.id_trip = d.id_trip
+JOIN 
+    transportation tr ON t.id_transportation = tr.id_transportation
+WHERE 
+    t.price > (SELECT AVG(price) FROM trip)
+    AND tr.number_of_passengers > 10
+ORDER BY 
+    TripYear DESC, TripMonth DESC, TripDay DESC;

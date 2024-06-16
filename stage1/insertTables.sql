@@ -3620,1207 +3620,1205 @@ values (32, 'Chloe', 400, to_date('27-04-2535', 'dd-mm-yyyy'));
 commit;
 
 
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jeremy', 1, 2192, 1, to_date('12-11-2117', 'dd-mm-yyyy'));
 
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Grant', 2, 2917, 2, to_date('19-08-2011', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Pete', 1, 3466, 1, to_date('28-03-2084', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sigourney', 3, 3912, 3, to_date('24-06-2415', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Derek', 2, 3052, 2, to_date('09-10-2463', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Holly', 4, 1607, 4, to_date('25-09-2525', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Carol', 3, 1910, 3, to_date('20-06-2213', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dwight', 5, 3745, 5, to_date('26-02-2723', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Davey', 4, 3494, 4, to_date('08-06-2464', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ivan', 6, 2267, 6, to_date('26-01-2531', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Adina', 5, 1981, 5, to_date('21-10-2287', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Roy', 7, 1459, 7, to_date('26-11-2398', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Minnie', 6, 2008, 6, to_date('15-03-2359', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jean', 8, 3058, 8, to_date('13-09-1964', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bernard', 7, 3177, 7, to_date('04-03-2079', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Regina', 9, 3995, 9, to_date('27-12-1941', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Patricia', 8, 3910, 8, to_date('22-04-2022', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Miki', 10, 2146, 10, to_date('06-08-2210', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Edward', 9, 3447, 9, to_date('16-09-2888', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ronny', 11, 2109, 11, to_date('10-08-2471', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Olga', 10, 3608, 10, to_date('21-03-2310', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Merle', 12, 2059, 12, to_date('01-01-2688', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Wally', 11, 1140, 11, to_date('31-10-2093', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sally', 13, 1476, 13, to_date('15-02-2850', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juliette', 12, 2692, 12, to_date('15-02-2746', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Orlando', 14, 2655, 14, to_date('06-10-2404', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Neve', 13, 2206, 13, to_date('13-02-2062', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Praga', 15, 1904, 15, to_date('04-12-2620', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Eileen', 14, 1293, 14, to_date('17-05-2867', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Charlize', 16, 3541, 16, to_date('26-08-2194', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jake', 15, 3115, 15, to_date('11-11-2134', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gerald', 17, 3404, 17, to_date('21-07-2896', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Phoebe', 16, 1363, 16, to_date('08-09-1927', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Belinda', 18, 1106, 18, to_date('10-09-2807', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rueben', 17, 1692, 17, to_date('07-08-2631', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nicky', 19, 1728, 19, to_date('11-09-2657', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vertical', 18, 3099, 18, to_date('20-11-2721', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Delroy', 20, 1950, 20, to_date('11-01-2301', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lily', 19, 2474, 19, to_date('28-05-2047', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dionne', 21, 2026, 21, to_date('27-03-2040', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Molly', 20, 3443, 20, to_date('11-09-2982', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Chris', 22, 2857, 22, to_date('24-02-2775', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Matt', 21, 2759, 21, to_date('18-10-2202', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ray', 23, 2000, 23, to_date('19-01-2191', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Liam', 22, 2752, 22, to_date('16-10-2994', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Faye', 24, 2516, 24, to_date('16-08-2096', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Judy', 23, 2087, 23, to_date('16-07-2382', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Judy', 25, 2732, 25, to_date('17-03-2909', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elle', 24, 1905, 24, to_date('30-11-2992', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nicolas', 26, 3337, 26, to_date('19-04-2620', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Billy', 25, 2991, 25, to_date('30-03-2471', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wally', 27, 1696, 27, to_date('23-05-2005', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Stanley', 26, 3699, 26, to_date('04-06-2363', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rueben', 28, 2951, 28, to_date('12-04-2715', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jesse', 27, 2363, 27, to_date('30-09-2784', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alfie', 29, 1724, 29, to_date('29-06-2706', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Halle', 28, 2705, 28, to_date('31-03-2734', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Robby', 30, 1676, 30, to_date('10-01-2182', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Isabella', 29, 2172, 29, to_date('11-08-2371', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jay', 31, 3408, 31, to_date('09-03-2007', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Taye', 30, 2540, 30, to_date('19-02-2005', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mint', 32, 2372, 32, to_date('15-03-1965', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Amy', 31, 3438, 31, to_date('27-04-2236', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rory', 33, 3905, 33, to_date('06-04-2751', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jean', 32, 1743, 32, to_date('15-09-3049', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Billy', 34, 2122, 34, to_date('06-06-2490', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Courtney', 33, 3828, 33, to_date('25-05-2353', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Queen', 35, 2947, 35, to_date('30-06-2962', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gene', 34, 1112, 34, to_date('16-01-2003', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Julie', 36, 2993, 36, to_date('21-02-3016', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tanya', 35, 2802, 35, to_date('01-06-2132', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Melanie', 37, 1311, 37, to_date('16-01-3042', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juan', 36, 1367, 36, to_date('06-09-2284', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Carlos', 38, 2150, 38, to_date('05-11-2536', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Anne', 37, 3519, 37, to_date('16-02-2677', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Miriam', 39, 2708, 39, to_date('08-05-1901', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Marianne', 38, 3190, 38, to_date('31-01-2902', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Geggy', 40, 3892, 40, to_date('30-09-2839', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kathy', 39, 3427, 39, to_date('26-05-2871', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mika', 41, 1224, 41, to_date('11-10-2438', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Howard', 40, 3279, 40, to_date('26-02-2740', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ronnie', 42, 2953, 42, to_date('15-07-2264', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lynn', 41, 3307, 41, to_date('22-06-2437', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Aaron', 43, 1793, 43, to_date('15-10-1932', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Carole', 42, 3554, 42, to_date('28-07-2879', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Grant', 44, 1890, 44, to_date('31-03-2828', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ashton', 43, 3174, 43, to_date('21-08-2577', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jesus', 45, 1796, 45, to_date('25-04-3012', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Fiona', 44, 2450, 44, to_date('19-01-2644', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jake', 46, 3726, 46, to_date('27-07-2023', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Treat', 45, 2558, 45, to_date('16-11-2785', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mint', 47, 3617, 47, to_date('24-06-2240', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cloris', 46, 1911, 46, to_date('30-08-2454', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jena', 48, 3350, 48, to_date('15-12-1995', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Morris', 47, 3040, 47, to_date('23-05-2164', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sophie', 49, 2822, 49, to_date('16-10-2116', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Stevie', 48, 1407, 48, to_date('07-01-2175', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hilary', 50, 1917, 50, to_date('19-07-1962', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rhett', 49, 3020, 49, to_date('10-06-2832', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jimmie', 51, 1485, 51, to_date('07-10-2525', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Terrence', 50, 2888, 50, to_date('20-03-1909', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Angie', 52, 3418, 52, to_date('25-05-2841', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Joaquin', 51, 3539, 51, to_date('02-09-2423', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Shawn', 53, 1998, 53, to_date('24-02-3071', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Steven', 52, 1999, 52, to_date('23-06-2978', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hilton', 54, 1374, 54, to_date('21-12-2771', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Warren', 53, 3823, 53, to_date('14-11-2870', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jane', 55, 2388, 55, to_date('19-12-2366', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Garland', 54, 3095, 54, to_date('13-08-2756', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Madeline', 56, 1048, 56, to_date('28-11-2621', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Randall', 55, 1250, 55, to_date('30-03-2642', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Azucar', 57, 2794, 57, to_date('26-01-2723', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vickie', 56, 1497, 56, to_date('16-03-2075', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vern', 58, 1042, 58, to_date('04-06-2432', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cherry', 57, 1850, 57, to_date('20-03-2818', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jesus', 59, 2964, 59, to_date('12-10-2127', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tea', 58, 2983, 58, to_date('10-09-2546', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jonathan', 60, 1809, 60, to_date('01-03-3058', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dustin', 59, 1360, 59, to_date('02-08-2305', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Victoria', 61, 3780, 61, to_date('09-06-2656', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Regina', 60, 2654, 60, to_date('12-05-2523', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Oro', 62, 3651, 62, to_date('05-08-2729', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mena', 61, 1634, 61, to_date('15-10-2869', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Darius', 63, 3410, 63, to_date('28-05-2934', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ronnie', 62, 3996, 62, to_date('23-09-1986', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rosie', 64, 3297, 64, to_date('11-02-2401', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Chi', 63, 2710, 63, to_date('29-10-3041', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Uma', 65, 3032, 65, to_date('09-08-2903', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bruce', 64, 3060, 64, to_date('25-11-2340', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Donna', 66, 3559, 66, to_date('11-07-1962', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Terri', 65, 3707, 65, to_date('18-06-1904', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Karon', 67, 1788, 67, to_date('09-12-2358', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Geraldine', 66, 3232, 66, to_date('17-07-2495', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jason', 68, 3704, 68, to_date('03-12-2290', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Walter', 67, 2668, 67, to_date('11-03-2372', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Franco', 69, 3970, 69, to_date('26-01-1993', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alessandro', 68, 1919, 68, to_date('12-01-2276', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Red', 70, 3672, 70, to_date('16-02-2306', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dean', 69, 1068, 69, to_date('31-07-2404', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sander', 71, 1980, 71, to_date('01-04-2731', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Chi', 70, 1608, 70, to_date('12-06-1999', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('William', 72, 2818, 72, to_date('19-08-2159', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Minnie', 71, 3878, 71, to_date('05-02-2878', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Daniel', 73, 3734, 73, to_date('04-03-2763', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nick', 72, 3108, 72, to_date('24-01-2752', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kid', 74, 1113, 74, to_date('18-09-2962', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bret', 73, 2209, 73, to_date('28-09-2726', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nikka', 75, 3268, 75, to_date('17-10-2258', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rick', 74, 3274, 74, to_date('25-05-2952', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Keith', 76, 1527, 76, to_date('14-01-2436', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ritchie', 75, 2653, 75, to_date('25-03-3069', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Charlie', 77, 2966, 77, to_date('06-06-2499', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jim', 76, 3110, 76, to_date('13-03-2940', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Emm', 78, 2057, 78, to_date('29-11-2271', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Azucar', 77, 3847, 77, to_date('16-06-2538', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Petula', 79, 3275, 79, to_date('02-06-2927', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Andrew', 78, 2725, 78, to_date('03-01-2172', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Teena', 80, 3601, 80, to_date('06-07-2827', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Irene', 79, 2594, 79, to_date('03-02-2382', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Juliana', 81, 1604, 81, to_date('10-09-2691', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Noah', 80, 1202, 80, to_date('18-07-2272', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kirk', 82, 3917, 82, to_date('23-02-2844', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leo', 81, 2299, 81, to_date('11-12-2844', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Whoopi', 83, 1764, 83, to_date('12-09-2422', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Glenn', 82, 1897, 82, to_date('14-10-2931', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Queen', 84, 3311, 84, to_date('10-04-2238', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jim', 83, 1707, 83, to_date('11-04-2468', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Steven', 85, 3036, 85, to_date('06-10-2269', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Irene', 84, 3994, 84, to_date('30-11-2649', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cheech', 86, 3785, 86, to_date('28-11-2317', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Terrence', 85, 1174, 85, to_date('27-09-2314', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rik', 87, 2501, 87, to_date('28-01-2281', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Madeline', 86, 1183, 86, to_date('06-05-3026', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vondie', 88, 3186, 88, to_date('01-10-2473', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cheryl', 87, 1079, 87, to_date('21-05-2512', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sinead', 89, 1745, 89, to_date('20-02-1970', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rhea', 88, 3179, 88, to_date('04-05-2837', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Melanie', 90, 2822, 90, to_date('16-04-2023', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bridget', 89, 3793, 89, to_date('15-02-2490', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Betty', 91, 2195, 91, to_date('28-02-2450', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Karen', 90, 2131, 90, to_date('11-11-2189', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rebeka', 92, 1944, 92, to_date('24-11-2887', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Madeline', 91, 2901, 91, to_date('06-08-1900', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Swoosie', 93, 2292, 93, to_date('01-05-1919', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Meg', 92, 2114, 92, to_date('16-06-2704', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gene', 94, 3997, 94, to_date('10-12-2628', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ernie', 93, 3510, 93, to_date('02-09-3012', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Angelina', 95, 1238, 95, to_date('14-03-2120', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mac', 94, 3304, 94, to_date('20-01-1987', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ernest', 96, 1394, 96, to_date('24-01-2822', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gil', 95, 2385, 95, to_date('06-04-2688', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kiefer', 97, 1233, 97, to_date('10-07-3035', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lesley', 96, 2574, 96, to_date('27-02-2336', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Veruca', 98, 1353, 98, to_date('06-03-2004', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Michael', 97, 3873, 97, to_date('29-06-2389', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Janeane', 99, 2721, 99, to_date('09-06-2288', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tamala', 98, 1525, 98, to_date('07-10-2163', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Joseph', 100, 3872, 100, to_date('01-02-1932', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tcheky', 99, 2890, 99, to_date('14-02-2257', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Maria', 101, 2368, 101, to_date('08-08-1977', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lisa', 100, 1807, 100, to_date('26-06-2499', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Norm', 102, 1741, 102, to_date('26-08-2590', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Taylor', 101, 2272, 101, to_date('05-06-2481', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cledus', 103, 2973, 103, to_date('07-04-2284', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Denis', 102, 2513, 102, to_date('06-12-2441', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jody', 104, 2483, 104, to_date('22-01-2905', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leo', 103, 3268, 103, to_date('08-02-2124', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Oded', 105, 1380, 105, to_date('26-04-2590', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Hector', 104, 2731, 104, to_date('13-05-2663', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Keith', 106, 3660, 106, to_date('13-03-2946', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Johnnie', 105, 3514, 105, to_date('16-11-2252', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ricky', 107, 1609, 107, to_date('25-08-2767', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vienna', 106, 3616, 106, to_date('07-10-2574', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gabriel', 108, 3222, 108, to_date('02-10-2546', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('King', 107, 3268, 107, to_date('20-10-2713', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vondie', 109, 2774, 109, to_date('20-11-2412', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tori', 108, 1901, 108, to_date('18-02-2469', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cary', 110, 2650, 110, to_date('25-09-2509', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Denny', 109, 1489, 109, to_date('02-09-3070', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Taryn', 111, 2808, 111, to_date('14-02-2137', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sylvester', 110, 2153, 110, to_date('23-06-2003', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sona', 112, 1749, 112, to_date('05-04-2199', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Micky', 111, 1510, 111, to_date('02-03-2413', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dar', 113, 3684, 113, to_date('02-01-2482', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Edward', 112, 1591, 112, to_date('05-08-2260', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kelli', 114, 3412, 114, to_date('22-03-3069', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jeffrey', 113, 2852, 113, to_date('30-06-2272', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ritchie', 115, 1307, 115, to_date('19-08-2975', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cuba', 114, 2580, 114, to_date('02-09-1926', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Clint', 116, 3377, 116, to_date('16-04-2891', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Don', 115, 3354, 115, to_date('20-02-3058', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Chalee', 117, 2938, 117, to_date('21-05-1936', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Louise', 116, 3106, 116, to_date('14-12-2103', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gord', 118, 1549, 118, to_date('15-11-2467', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ali', 117, 2386, 117, to_date('12-10-2583', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alfred', 119, 1370, 119, to_date('25-04-1947', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Percy', 118, 2478, 118, to_date('13-05-2304', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Louise', 120, 1567, 120, to_date('08-09-2657', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Holly', 119, 2680, 119, to_date('30-06-1953', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rodney', 121, 1470, 121, to_date('07-05-2723', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Daryl', 120, 2181, 120, to_date('27-10-2549', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nathan', 122, 3639, 122, to_date('26-12-2247', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jeroen', 121, 3482, 121, to_date('29-04-2932', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cate', 123, 3680, 123, to_date('23-12-2703', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jamie', 122, 1079, 122, to_date('30-04-3075', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Patricia', 124, 1977, 124, to_date('23-08-1999', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Courtney', 123, 1414, 123, to_date('15-07-2561', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Liquid', 125, 2946, 125, to_date('30-05-2965', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ray', 124, 2087, 124, to_date('04-01-2452', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Donna', 126, 2018, 126, to_date('25-01-3013', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vienna', 125, 3896, 125, to_date('30-05-2355', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gordie', 127, 3907, 127, to_date('10-01-2284', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('William', 126, 2843, 126, to_date('28-07-2697', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Paul', 128, 2860, 128, to_date('16-07-2584', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Melba', 127, 2316, 127, to_date('07-06-2206', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jackson', 129, 3218, 129, to_date('08-08-2523', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ricky', 128, 3781, 128, to_date('19-10-2386', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mitchell', 130, 1497, 130, to_date('19-02-2740', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Powers', 129, 2702, 129, to_date('02-03-1951', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Morris', 131, 2449, 131, to_date('12-08-2909', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Philip', 130, 1285, 130, to_date('28-10-2702', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jena', 132, 2364, 132, to_date('06-02-2217', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Andrew', 131, 1330, 131, to_date('30-10-2452', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Grace', 133, 2955, 133, to_date('01-02-2255', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Marina', 132, 2232, 132, to_date('19-12-2519', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Teri', 134, 3877, 134, to_date('14-08-2984', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Hilary', 133, 1128, 133, to_date('20-05-3055', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lenny', 135, 1553, 135, to_date('17-08-2604', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Betty', 134, 1074, 134, to_date('20-05-2555', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lennie', 136, 2016, 136, to_date('06-07-2342', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cledus', 135, 3569, 135, to_date('03-07-2269', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Danni', 137, 3571, 137, to_date('19-03-2275', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Carlene', 136, 3778, 136, to_date('08-04-2877', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jarvis', 138, 3983, 138, to_date('24-04-2344', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lance', 137, 3688, 137, to_date('04-06-2470', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jeff', 139, 2819, 139, to_date('22-03-3016', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jeremy', 138, 2101, 138, to_date('06-08-2325', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alice', 140, 3463, 140, to_date('17-04-2303', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rolando', 139, 3691, 139, to_date('13-10-2585', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tamala', 141, 1301, 141, to_date('27-01-2476', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vendetta', 140, 2101, 140, to_date('14-02-2509', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Taylor', 142, 3611, 142, to_date('21-04-2703', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alan', 141, 2765, 141, to_date('24-12-2329', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Marina', 143, 3813, 143, to_date('29-06-2561', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Miranda', 142, 2033, 142, to_date('14-12-2759', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tal', 144, 2234, 144, to_date('15-03-1902', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Zooey', 143, 1258, 143, to_date('15-02-2930', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Elijah', 145, 1041, 145, to_date('12-02-2968', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Allan', 144, 1218, 144, to_date('10-05-2565', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ramsey', 146, 2571, 146, to_date('23-09-2330', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Greg', 145, 2611, 145, to_date('11-10-1912', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Davy', 147, 2283, 147, to_date('14-10-2110', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jonathan', 146, 2563, 146, to_date('26-04-2031', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Maggie', 148, 1101, 148, to_date('20-10-2367', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gabriel', 147, 2333, 147, to_date('13-09-2883', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Temuera', 149, 3301, 149, to_date('30-04-2405', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Julie', 148, 3563, 148, to_date('10-05-2127', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Laura', 150, 1742, 150, to_date('27-04-1943', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rachael', 149, 1385, 149, to_date('26-12-2511', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Elisabeth', 151, 2202, 151, to_date('22-05-2500', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('James', 150, 2360, 150, to_date('03-09-2857', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ike', 152, 3314, 152, to_date('09-10-1992', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dianne', 151, 1388, 151, to_date('08-05-2561', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Juliana', 153, 2397, 153, to_date('11-10-3031', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Merillee', 152, 2035, 152, to_date('14-09-2984', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Trick', 154, 2811, 154, to_date('15-02-1922', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Russell', 153, 3690, 153, to_date('29-09-2668', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Curtis', 155, 1624, 155, to_date('02-07-2859', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alfie', 154, 2432, 154, to_date('25-08-2814', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gina', 156, 3763, 156, to_date('25-09-2999', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Willie', 155, 1317, 155, to_date('21-09-2505', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Night', 157, 1725, 157, to_date('03-04-2183', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Diamond', 156, 3626, 156, to_date('12-04-2208', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Doug', 158, 2128, 158, to_date('19-07-2093', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Miriam', 157, 1749, 157, to_date('21-05-2529', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Connie', 159, 3097, 159, to_date('02-07-1974', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Laurence', 158, 2411, 158, to_date('21-10-2108', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Celia', 160, 2877, 160, to_date('09-04-2974', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mena', 159, 1087, 159, to_date('01-07-2498', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ossie', 161, 1737, 161, to_date('20-03-2012', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Emerson', 160, 1969, 160, to_date('31-12-2229', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Edie', 162, 3837, 162, to_date('08-08-2843', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dianne', 161, 2181, 161, to_date('13-04-2278', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dustin', 163, 1100, 163, to_date('23-01-2856', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ned', 162, 2973, 162, to_date('17-12-2224', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Maureen', 164, 2781, 164, to_date('27-11-2118', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jill', 163, 1340, 163, to_date('18-05-2614', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Robby', 165, 3974, 165, to_date('27-10-2470', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Etta', 164, 2946, 164, to_date('18-03-2582', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('William', 166, 3204, 166, to_date('10-09-1924', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rosario', 165, 1999, 165, to_date('01-09-2234', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vince', 167, 3761, 167, to_date('04-09-2153', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ernest', 166, 3385, 166, to_date('31-05-2080', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Shannon', 168, 3033, 168, to_date('01-07-2607', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Laurence', 167, 3986, 167, to_date('28-12-1905', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gwyneth', 169, 3259, 169, to_date('29-08-2852', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leon', 168, 1176, 168, to_date('21-12-2418', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rhys', 170, 2832, 170, to_date('01-09-2774', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Famke', 169, 1305, 169, to_date('03-07-1912', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Carrie', 171, 2815, 171, to_date('03-04-2800', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Marianne', 170, 1922, 170, to_date('19-09-2140', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Stanley', 172, 1972, 172, to_date('21-10-2483', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kimberly', 171, 3580, 171, to_date('05-02-2161', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sigourney', 173, 3932, 173, to_date('11-04-2210', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tal', 172, 1033, 172, to_date('16-06-2078', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nigel', 174, 2157, 174, to_date('17-04-2249', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gina', 173, 2808, 173, to_date('24-11-2691', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tracy', 175, 1560, 175, to_date('03-08-2721', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bill', 174, 1627, 174, to_date('19-05-2551', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rosanna', 176, 1479, 176, to_date('29-10-2128', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kimberly', 175, 2039, 175, to_date('08-01-2125', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Carole', 177, 3705, 177, to_date('05-07-2194', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tilda', 176, 2522, 176, to_date('09-12-2822', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Brian', 178, 3424, 178, to_date('06-11-2397', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Terence', 177, 3116, 177, to_date('29-10-2581', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Heath', 179, 1279, 179, to_date('06-12-2108', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elias', 178, 3645, 178, to_date('24-04-2800', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Shelby', 180, 1701, 180, to_date('16-03-2810', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Stevie', 179, 3988, 179, to_date('06-09-1976', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tommy', 181, 3517, 181, to_date('02-12-2044', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sona', 180, 2138, 180, to_date('20-10-3010', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tcheky', 182, 3045, 182, to_date('23-10-3011', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Karon', 181, 2463, 181, to_date('11-08-2421', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rosanne', 183, 3371, 183, to_date('28-01-2668', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Maria', 182, 1133, 182, to_date('18-06-2488', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cate', 184, 3032, 184, to_date('08-03-2991', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juliana', 183, 1781, 183, to_date('02-05-2863', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dar', 185, 3502, 185, to_date('05-04-2800', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jim', 184, 2566, 184, to_date('08-03-2184', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Candice', 186, 1021, 186, to_date('05-07-2525', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Billy', 185, 3297, 185, to_date('25-07-2005', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Courtney', 187, 1163, 187, to_date('19-12-1949', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Debra', 186, 2468, 186, to_date('23-01-1904', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Marisa', 188, 3391, 188, to_date('08-04-3074', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Denzel', 187, 2010, 187, to_date('20-08-3055', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Uma', 189, 2907, 189, to_date('23-10-2814', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Emm', 188, 1826, 188, to_date('25-05-2507', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Donal', 190, 1849, 190, to_date('19-01-2216', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Roger', 189, 1888, 189, to_date('20-07-2538', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cathy', 191, 2168, 191, to_date('30-11-2624', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mili', 190, 2232, 190, to_date('01-11-2565', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nick', 192, 3608, 192, to_date('22-07-2502', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jeffrey', 191, 2018, 191, to_date('14-03-1986', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Phoebe', 193, 1593, 193, to_date('11-08-2237', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Terry', 192, 2229, 192, to_date('10-10-1988', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wes', 194, 2080, 194, to_date('14-01-3064', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Praga', 193, 1906, 193, to_date('09-03-2726', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vin', 195, 2226, 195, to_date('14-02-2764', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Marc', 194, 2221, 194, to_date('22-01-2315', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Stephen', 196, 1458, 196, to_date('28-08-2833', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alex', 195, 2752, 195, to_date('09-03-2562', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mili', 197, 1464, 197, to_date('19-12-2655', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Johnnie', 196, 2244, 196, to_date('18-11-2434', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Crispin', 198, 2461, 198, to_date('24-07-2569', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elisabeth', 197, 1603, 197, to_date('13-08-1967', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Joey', 199, 1808, 199, to_date('21-05-2865', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ralph', 198, 2459, 198, to_date('01-06-2172', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Omar', 200, 3633, 200, to_date('20-02-2473', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nikki', 199, 3962, 199, to_date('31-05-2436', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Maria', 201, 3944, 201, to_date('23-07-2509', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Emilio', 200, 1151, 200, to_date('19-05-2463', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alex', 202, 2318, 202, to_date('21-06-2639', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Shannon', 201, 3055, 201, to_date('23-05-2070', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nicolas', 203, 2441, 203, to_date('06-05-2154', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jet', 202, 2943, 202, to_date('22-10-2488', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christopher', 204, 1705, 204, to_date('18-12-1973', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Randall', 203, 3577, 203, to_date('25-11-2844', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rachel', 205, 3342, 205, to_date('27-07-2110', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Harris', 204, 2070, 204, to_date('24-02-2639', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Pierce', 206, 3615, 206, to_date('24-08-2326', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lloyd', 205, 2618, 205, to_date('04-08-2728', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kevin', 207, 2993, 207, to_date('20-03-2847', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Molly', 206, 3617, 206, to_date('13-05-2666', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Patty', 208, 2891, 208, to_date('16-01-2649', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rutger', 207, 2790, 207, to_date('18-12-2764', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jaime', 209, 3747, 209, to_date('22-03-3001', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gwyneth', 208, 2739, 208, to_date('24-04-3055', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nile', 210, 1856, 210, to_date('02-05-2412', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Frankie', 209, 3519, 209, to_date('01-04-2762', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Eddie', 211, 1308, 211, to_date('01-12-2549', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rade', 210, 2793, 210, to_date('14-03-2557', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Fairuza', 212, 3130, 212, to_date('16-07-2704', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vern', 211, 1142, 211, to_date('02-01-2886', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hilary', 213, 3775, 213, to_date('05-03-1961', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dabney', 212, 3152, 212, to_date('16-01-2197', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Elle', 214, 1749, 214, to_date('17-09-2079', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juice', 213, 2268, 213, to_date('09-04-2947', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alec', 215, 1424, 215, to_date('03-12-2298', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Michelle', 214, 1023, 214, to_date('15-07-2765', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dorry', 216, 3815, 216, to_date('13-11-2450', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tia', 215, 2665, 215, to_date('29-01-3022', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Walter', 217, 2309, 217, to_date('17-06-2613', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Trick', 216, 2897, 216, to_date('07-01-2692', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rosanna', 218, 3307, 218, to_date('18-07-2322', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Carol', 217, 3294, 217, to_date('20-03-3031', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Grant', 219, 3350, 219, to_date('18-03-2775', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Larnelle', 218, 3138, 218, to_date('18-07-2548', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lonnie', 220, 3184, 220, to_date('09-07-2220', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Janeane', 219, 3875, 219, to_date('25-04-2759', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Thelma', 221, 1069, 221, to_date('04-05-2020', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Goldie', 220, 3834, 220, to_date('09-06-2799', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ernest', 222, 3811, 222, to_date('22-10-2804', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Claire', 221, 2989, 221, to_date('26-02-2287', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hal', 223, 1147, 223, to_date('26-08-2673', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lennie', 222, 2948, 222, to_date('25-11-2536', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Temuera', 224, 2204, 224, to_date('06-11-2785', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Melba', 223, 1164, 223, to_date('23-05-2490', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Willie', 225, 1632, 225, to_date('19-12-2851', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bobbi', 224, 1443, 224, to_date('27-12-2171', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Juan', 226, 1794, 226, to_date('10-05-2699', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Louise', 225, 2083, 225, to_date('01-08-2668', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jesse', 227, 3797, 227, to_date('06-01-2921', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Johnnie', 226, 1836, 226, to_date('12-01-2151', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Laura', 228, 2466, 228, to_date('25-02-1901', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Harold', 227, 1883, 227, to_date('17-01-2282', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Breckin', 229, 1266, 229, to_date('03-08-2051', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nicky', 228, 2971, 228, to_date('15-06-2506', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jean-Claude', 230, 1993, 230, to_date('20-09-2216', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Morgan', 229, 1017, 229, to_date('26-01-2163', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cliff', 231, 1078, 231, to_date('13-12-1914', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Philip', 230, 2233, 230, to_date('21-09-3049', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dylan', 232, 1397, 232, to_date('07-11-2053', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Norm', 231, 3170, 231, to_date('27-03-2195', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Armin', 233, 1672, 233, to_date('12-06-2464', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rupert', 232, 3224, 232, to_date('20-05-2807', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jaime', 234, 2910, 234, to_date('08-02-3005', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Julie', 233, 2731, 233, to_date('16-11-2689', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gates', 235, 1461, 235, to_date('09-11-2527', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Julia', 234, 1699, 234, to_date('20-07-2019', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christopher', 236, 2855, 236, to_date('07-08-2470', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Toni', 235, 2308, 235, to_date('01-01-2092', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jamie', 237, 3505, 237, to_date('06-12-2469', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Clay', 236, 2627, 236, to_date('22-04-2217', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jann', 238, 3421, 238, to_date('13-10-2368', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jesus', 237, 3048, 237, to_date('14-07-1912', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('LeVar', 239, 2724, 239, to_date('11-02-2525', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sam', 238, 2106, 238, to_date('26-06-2868', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Amanda', 240, 1862, 240, to_date('22-02-2810', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Art', 239, 1183, 239, to_date('10-10-2784', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Woody', 241, 2288, 241, to_date('22-07-2440', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Colin', 240, 2903, 240, to_date('12-05-2494', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Crispin', 242, 2614, 242, to_date('31-03-2416', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Illeana', 241, 3580, 241, to_date('01-12-2130', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Miriam', 243, 2801, 243, to_date('27-06-2664', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dar', 242, 1150, 242, to_date('28-03-1922', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Penelope', 244, 2074, 244, to_date('22-01-2760', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Emmylou', 243, 1107, 243, to_date('16-05-2446', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Thelma', 245, 2061, 245, to_date('11-01-2470', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Maxine', 244, 3470, 244, to_date('02-05-2512', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Buffy', 246, 3756, 246, to_date('08-04-2627', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Shelby', 245, 1808, 245, to_date('02-02-2684', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Elle', 247, 3082, 247, to_date('19-04-2362', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cornell', 246, 3177, 246, to_date('16-10-1968', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Alessandro', 248, 2235, 248, to_date('23-10-2038', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Greg', 247, 3082, 247, to_date('24-08-2483', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kelli', 249, 3889, 249, to_date('07-12-2559', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Hugh', 248, 1446, 248, to_date('06-03-2146', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lenny', 250, 1068, 250, to_date('25-10-2241', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Anita', 249, 3781, 249, to_date('13-11-2560', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Embeth', 251, 2158, 251, to_date('04-05-2494', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Arnold', 250, 3064, 250, to_date('09-04-2782', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ernest', 252, 2701, 252, to_date('08-01-2071', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gailard', 251, 2281, 251, to_date('18-01-2094', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Coley', 253, 2083, 253, to_date('28-07-2637', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Brothers', 252, 1839, 252, to_date('11-05-2626', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lesley', 254, 3754, 254, to_date('29-06-2714', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Thelma', 253, 3585, 253, to_date('08-10-2579', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mena', 255, 2734, 255, to_date('04-11-2267', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Eileen', 254, 2624, 254, to_date('20-12-2492', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kirk', 256, 2800, 256, to_date('07-03-2666', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Heath', 255, 2312, 255, to_date('30-07-2175', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cevin', 257, 3751, 257, to_date('08-06-2423', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Maceo', 256, 3294, 256, to_date('09-06-2498', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rhona', 258, 2404, 258, to_date('20-10-1947', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Minnie', 257, 3527, 257, to_date('28-06-2673', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christian', 259, 1205, 259, to_date('19-12-2088', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Faye', 258, 2795, 258, to_date('08-08-2031', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jose', 260, 2607, 260, to_date('20-02-2612', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tamala', 259, 3537, 259, to_date('11-02-1925', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Oded', 261, 1014, 261, to_date('17-06-2636', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elijah', 260, 3516, 260, to_date('26-04-2729', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Derrick', 262, 2757, 262, to_date('08-09-2885', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Stanley', 261, 2682, 261, to_date('29-03-3042', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Garth', 263, 2128, 263, to_date('04-01-2302', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rod', 262, 2565, 262, to_date('07-09-2817', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gino', 264, 2396, 264, to_date('25-04-2805', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mekhi', 263, 1521, 263, to_date('31-01-2328', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Katie', 265, 3038, 265, to_date('17-11-2263', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nikki', 264, 3212, 264, to_date('01-10-3045', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cloris', 266, 3436, 266, to_date('27-06-2898', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lupe', 265, 2238, 265, to_date('26-02-2947', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Judd', 267, 1563, 267, to_date('07-04-2081', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sean', 266, 3399, 266, to_date('12-04-2267', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Collective', 268, 2844, 268, to_date('26-02-2602', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mint', 267, 2385, 267, to_date('16-03-2814', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Maxine', 269, 1694, 269, to_date('25-04-2203', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Franz', 268, 3172, 268, to_date('03-09-2458', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Delbert', 270, 2120, 270, to_date('22-06-2415', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bebe', 269, 1815, 269, to_date('04-05-2968', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sigourney', 271, 1040, 271, to_date('12-10-3050', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rich', 270, 3623, 270, to_date('23-03-2572', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Freda', 272, 3769, 272, to_date('05-10-2712', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ron', 271, 2623, 271, to_date('03-07-2342', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tea', 273, 3499, 273, to_date('15-05-2360', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mos', 272, 1842, 272, to_date('02-10-1933', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kris', 274, 1304, 274, to_date('14-01-2176', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nicky', 273, 3669, 273, to_date('03-12-2734', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Diane', 275, 3612, 275, to_date('17-03-2510', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tim', 274, 1029, 274, to_date('21-06-2636', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lucinda', 276, 2954, 276, to_date('24-06-2381', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ike', 275, 1677, 275, to_date('06-07-2361', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Martin', 277, 3159, 277, to_date('12-06-1921', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Anthony', 276, 1507, 276, to_date('30-01-2759', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('King', 278, 3574, 278, to_date('29-06-2273', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mint', 277, 3452, 277, to_date('21-05-2891', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Brian', 279, 1235, 279, to_date('05-07-2596', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Daryl', 278, 1664, 278, to_date('29-09-2144', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jean-Claude', 280, 3356, 280, to_date('11-06-2411', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Matthew', 279, 2309, 279, to_date('12-05-2329', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Demi', 281, 2857, 281, to_date('29-02-2232', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Andrea', 280, 1933, 280, to_date('11-03-2686', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nora', 282, 2063, 282, to_date('09-05-2348', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Arturo', 281, 3967, 281, to_date('17-09-2719', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sam', 283, 2486, 283, to_date('28-01-2033', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Janice', 282, 3538, 282, to_date('21-02-2348', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Richard', 284, 1733, 284, to_date('24-10-2365', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vienna', 283, 2583, 283, to_date('13-06-2290', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dustin', 285, 2120, 285, to_date('16-06-2598', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Hugo', 284, 3081, 284, to_date('20-11-2797', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Howie', 286, 2528, 286, to_date('29-12-2581', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Max', 285, 2073, 285, to_date('08-06-2769', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Fairuza', 287, 3301, 287, to_date('16-06-2087', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Morgan', 286, 2748, 286, to_date('02-12-2555', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lenny', 288, 1514, 288, to_date('23-10-2914', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Fairuza', 287, 1985, 287, to_date('19-05-2605', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Bruce', 289, 3888, 289, to_date('10-11-1963', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Parker', 288, 3260, 288, to_date('08-10-3072', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gerald', 290, 3197, 290, to_date('29-11-1907', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Liam', 289, 1661, 289, to_date('14-05-2151', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jaime', 291, 2269, 291, to_date('04-11-2208', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Delroy', 290, 1247, 290, to_date('12-05-2200', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Anthony', 292, 3422, 292, to_date('07-03-2249', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rawlins', 291, 2999, 291, to_date('25-10-2983', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mae', 293, 2138, 293, to_date('07-07-2071', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cevin', 292, 3817, 292, to_date('10-10-2539', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ricardo', 294, 3317, 294, to_date('16-09-1910', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Manu', 293, 1391, 293, to_date('05-11-2786', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Courtney', 295, 3684, 295, to_date('06-06-2267', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rupert', 294, 2236, 294, to_date('08-05-2172', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Matthew', 296, 3181, 296, to_date('28-10-2820', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lennie', 295, 2158, 295, to_date('01-02-2088', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Judi', 297, 1181, 297, to_date('20-03-2134', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Guy', 296, 2231, 296, to_date('23-02-2571', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Humberto', 298, 1084, 298, to_date('21-10-2834', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Nik', 297, 2590, 297, to_date('04-10-2624', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wendy', 299, 3355, 299, to_date('31-08-2741', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dorry', 298, 3921, 298, to_date('09-05-2947', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lari', 300, 2333, 300, to_date('24-04-2632', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Stevie', 299, 1401, 299, to_date('17-01-2797', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cherry', 301, 3477, 301, to_date('20-05-2375', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Woody', 300, 1213, 300, to_date('08-01-2749', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Roddy', 302, 2367, 302, to_date('20-11-1936', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vern', 301, 2494, 301, to_date('11-06-2465', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Roger', 303, 3901, 303, to_date('12-10-2724', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leon', 302, 3113, 302, to_date('20-11-2018', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Karon', 304, 2971, 304, to_date('02-12-2034', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elijah', 303, 2251, 303, to_date('26-06-2643', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Janice', 305, 2591, 305, to_date('17-07-2348', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Machine', 304, 2184, 304, to_date('25-12-2552', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Boyd', 306, 2391, 306, to_date('20-06-2358', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gilberto', 305, 1763, 305, to_date('22-01-1936', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jay', 307, 2017, 307, to_date('14-06-2971', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Gena', 306, 2916, 306, to_date('30-01-2858', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nile', 308, 2927, 308, to_date('29-10-2020', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Madeline', 307, 3130, 307, to_date('04-09-2148', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Anna', 309, 3648, 309, to_date('21-12-2578', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alannah', 308, 3225, 308, to_date('06-07-2419', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Edwin', 310, 2323, 310, to_date('20-07-2183', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rosanne', 309, 1924, 309, to_date('29-12-2788', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Benjamin', 311, 1948, 311, to_date('06-10-2684', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Albertina', 310, 1476, 310, to_date('08-01-2051', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Embeth', 312, 2719, 312, to_date('19-09-2038', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lila', 311, 2858, 311, to_date('18-12-2923', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dionne', 313, 1378, 313, to_date('14-06-1902', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alicia', 312, 1369, 312, to_date('26-09-2721', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Loren', 314, 3408, 314, to_date('14-07-3019', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kyle', 313, 2171, 313, to_date('29-06-2711', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Eric', 315, 2154, 315, to_date('30-12-2555', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Steve', 314, 2527, 314, to_date('27-10-2697', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Clea', 316, 3309, 316, to_date('10-05-2128', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Merrilee', 315, 2116, 315, to_date('09-08-2980', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Marina', 317, 2646, 317, to_date('06-09-1984', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Etta', 316, 2844, 316, to_date('19-09-3039', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Eliza', 318, 3095, 318, to_date('24-08-2474', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Elias', 317, 2706, 317, to_date('04-08-1933', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Derek', 319, 1892, 319, to_date('21-05-2169', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juice', 318, 2229, 318, to_date('04-07-2498', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Emm', 320, 1448, 320, to_date('30-06-2704', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lauren', 319, 1441, 319, to_date('26-12-2862', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Zooey', 321, 1033, 321, to_date('12-12-2576', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Davey', 320, 3616, 320, to_date('21-08-2033', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Trey', 322, 3316, 322, to_date('17-09-2226', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Juice', 321, 1519, 321, to_date('17-11-2882', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gavin', 323, 3223, 323, to_date('27-07-2520', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jesus', 322, 3514, 322, to_date('12-10-2845', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christina', 324, 2181, 324, to_date('20-11-2669', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ted', 323, 1040, 323, to_date('14-04-2412', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Embeth', 325, 3868, 325, to_date('21-04-1931', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Wesley', 324, 2359, 324, to_date('13-12-2053', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Temuera', 326, 2846, 326, to_date('19-12-2523', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Judd', 325, 2304, 325, to_date('16-10-2242', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cheech', 327, 2644, 327, to_date('14-10-2348', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Anna', 326, 1948, 326, to_date('17-08-2048', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kid', 328, 2787, 328, to_date('18-11-2710', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lin', 327, 2461, 327, to_date('28-08-2363', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dave', 329, 2790, 329, to_date('27-08-2981', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Crystal', 328, 3693, 328, to_date('16-12-2925', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Arnold', 330, 3402, 330, to_date('31-08-2465', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kid', 329, 3910, 329, to_date('19-07-2111', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wally', 331, 3365, 331, to_date('28-04-1971', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Vertical', 330, 1818, 330, to_date('16-02-1956', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lila', 332, 2216, 332, to_date('10-03-2108', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rascal', 331, 3938, 331, to_date('23-03-2931', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Morgan', 333, 1717, 333, to_date('11-10-2672', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Maureen', 332, 3312, 332, to_date('28-12-2565', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wade', 334, 2926, 334, to_date('15-06-2185', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alex', 333, 2517, 333, to_date('02-04-2577', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gil', 335, 1933, 335, to_date('14-05-2732', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Alan', 334, 1948, 334, to_date('29-07-2276', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Peter', 336, 3816, 336, to_date('21-11-2383', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bo', 335, 2940, 335, to_date('13-08-2412', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('William', 337, 3829, 337, to_date('28-10-2084', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cherry', 336, 1353, 336, to_date('29-08-2389', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mel', 338, 1200, 338, to_date('11-10-2178', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Brooke', 337, 2452, 337, to_date('27-01-2994', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kim', 339, 2716, 339, to_date('31-08-2231', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Taryn', 338, 2468, 338, to_date('19-12-3041', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kenneth', 340, 3882, 340, to_date('05-07-2001', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Trick', 339, 2230, 339, to_date('02-06-2666', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Cole', 341, 3905, 341, to_date('05-05-2388', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rita', 340, 1130, 340, to_date('12-08-2831', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ozzy', 342, 1734, 342, to_date('15-01-2365', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Cathy', 341, 2312, 341, to_date('08-02-1909', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sandra', 343, 3457, 343, to_date('19-02-2255', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Desmond', 342, 3525, 342, to_date('08-12-3035', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Brian', 344, 1354, 344, to_date('19-10-1907', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Andrea', 343, 1473, 343, to_date('18-09-2739', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hex', 345, 3164, 345, to_date('04-12-2522', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kasey', 344, 2065, 344, to_date('13-03-2812', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Geoff', 346, 3581, 346, to_date('01-04-2593', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Wally', 345, 1822, 345, to_date('21-04-2346', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christmas', 347, 3902, 347, to_date('14-10-1938', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Eddie', 346, 3670, 346, to_date('26-01-2288', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kirk', 348, 1688, 348, to_date('21-05-2017', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tommy', 347, 2202, 347, to_date('08-02-2198', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Naomi', 349, 1424, 349, to_date('22-08-3027', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Anthony', 348, 2459, 348, to_date('24-06-1993', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Rip', 350, 1520, 350, to_date('08-02-3066', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Clay', 349, 3599, 349, to_date('28-10-2401', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Udo', 351, 3223, 351, to_date('13-06-1907', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Deborah', 350, 3398, 350, to_date('29-04-2920', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Dustin', 352, 3691, 352, to_date('22-04-1961', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Roddy', 351, 3673, 351, to_date('17-12-1902', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Carole', 353, 3221, 353, to_date('18-07-1930', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Debi', 352, 1434, 352, to_date('21-03-2609', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ronnie', 354, 1766, 354, to_date('16-08-2275', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ernest', 353, 2746, 353, to_date('30-05-1963', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sara', 355, 3727, 355, to_date('25-12-1914', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Derek', 354, 2088, 354, to_date('20-04-2925', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Delbert', 356, 3894, 356, to_date('02-07-2075', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Aidan', 355, 3917, 355, to_date('05-09-2033', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Nina', 357, 3228, 357, to_date('13-04-3000', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Coley', 356, 2172, 356, to_date('20-10-2067', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Barbara', 358, 1128, 358, to_date('11-06-2096', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Aidan', 357, 2936, 357, to_date('03-05-2568', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Merrill', 359, 3082, 359, to_date('14-07-3028', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Woody', 358, 1324, 358, to_date('13-05-2444', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Courtney', 360, 2736, 360, to_date('01-06-2075', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rik', 359, 3041, 359, to_date('08-09-2150', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Marie', 361, 1097, 361, to_date('21-06-2864', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leonardo', 360, 1306, 360, to_date('17-09-1922', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Al', 362, 1295, 362, to_date('19-12-2930', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sandra', 361, 2431, 361, to_date('18-09-2402', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Todd', 363, 3047, 363, to_date('16-01-2175', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rosco', 362, 1313, 362, to_date('16-06-2426', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Marie', 364, 3622, 364, to_date('02-03-2212', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rachid', 363, 3558, 363, to_date('29-11-2508', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Seann', 365, 3580, 365, to_date('13-01-2580', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Salma', 364, 1071, 364, to_date('05-01-2655', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Merrilee', 366, 1669, 366, to_date('07-02-2668', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Latin', 365, 2179, 365, to_date('24-09-2849', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Wayne', 367, 3440, 367, to_date('15-10-2439', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sal', 366, 1919, 366, to_date('24-05-2888', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Julie', 368, 2630, 368, to_date('04-07-2592', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jennifer', 367, 3300, 367, to_date('04-01-2598', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Eliza', 369, 2519, 369, to_date('04-10-2516', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Xander', 368, 3570, 368, to_date('25-01-2219', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Geggy', 370, 1915, 370, to_date('11-06-2928', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jack', 369, 1934, 369, to_date('10-08-2131', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mel', 371, 1827, 371, to_date('08-11-2828', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dave', 370, 2512, 370, to_date('23-12-2411', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Teena', 372, 3443, 372, to_date('24-04-2518', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Dorry', 371, 1223, 371, to_date('18-10-2586', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Julianne', 373, 2104, 373, to_date('22-12-2032', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Howard', 372, 1277, 372, to_date('08-06-2485', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tramaine', 374, 1143, 374, to_date('13-12-2843', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Freddie', 373, 2062, 373, to_date('03-02-2448', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Christina', 375, 2166, 375, to_date('27-06-2056', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Sandra', 374, 1646, 374, to_date('26-12-1982', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Danny', 376, 2775, 376, to_date('12-04-1995', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tal', 375, 1135, 375, to_date('15-01-3060', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Clay', 377, 1471, 377, to_date('19-10-2197', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lauren', 376, 2630, 376, to_date('12-12-2138', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Amy', 378, 2418, 378, to_date('05-08-2071', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Amy', 377, 2456, 377, to_date('28-07-2040', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Hal', 379, 3392, 379, to_date('24-08-2999', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tyrone', 378, 1273, 378, to_date('21-04-2460', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Vendetta', 380, 3367, 380, to_date('18-01-1975', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Mickey', 379, 2148, 379, to_date('09-08-2257', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Samantha', 381, 1515, 381, to_date('13-12-3052', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ceili', 380, 3308, 380, to_date('09-06-1920', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Pablo', 382, 1984, 382, to_date('07-08-2108', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Bonnie', 381, 2724, 381, to_date('13-05-2700', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Kelli', 383, 2681, 383, to_date('11-03-2404', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Domingo', 382, 3006, 382, to_date('10-12-2895', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Ernie', 384, 1312, 384, to_date('23-07-2540', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ellen', 383, 1402, 383, to_date('30-12-2078', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Adam', 385, 3533, 385, to_date('01-01-2488', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Hilton', 384, 3584, 384, to_date('12-12-2533', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Lenny', 386, 3412, 386, to_date('18-05-2326', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jody', 385, 2591, 385, to_date('15-04-2386', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Radney', 387, 3863, 387, to_date('22-07-2461', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Tramaine', 386, 2635, 386, to_date('25-02-2517', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Chrissie', 388, 3300, 388, to_date('27-05-2066', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Kevn', 387, 2366, 387, to_date('08-08-2660', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gin', 389, 1039, 389, to_date('11-01-2921', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rodney', 388, 1835, 388, to_date('12-03-2881', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Gladys', 390, 1557, 390, to_date('05-03-2721', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Loreena', 389, 2162, 389, to_date('08-04-2882', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Danni', 391, 1238, 391, to_date('02-03-2382', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Leo', 390, 1910, 390, to_date('06-05-2420', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Luis', 392, 1033, 392, to_date('30-07-3031', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Harriet', 391, 1745, 391, to_date('07-05-2080', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Freddy', 393, 2886, 393, to_date('07-08-2872', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Rade', 392, 3078, 392, to_date('26-05-3051', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Allan', 394, 2031, 394, to_date('09-03-2155', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Miles', 393, 2496, 393, to_date('15-12-2747', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Mia', 395, 2774, 395, to_date('25-09-2468', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Ernie', 394, 3303, 394, to_date('16-06-2144', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Antonio', 396, 1912, 396, to_date('16-02-2234', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Liv', 395, 3809, 395, to_date('16-07-2751', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Faye', 397, 3521, 397, to_date('28-06-2555', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Jesse', 396, 1144, 396, to_date('17-06-2677', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Tanya', 398, 1582, 398, to_date('02-03-2322', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Deborah', 397, 1632, 397, to_date('01-04-2553', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Sam', 399, 1394, 399, to_date('19-01-2922', 'dd-mm-yyyy'));
 
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Lindsay', 398, 2240, 398, to_date('06-05-3048', 'dd-mm-yyyy'));
-
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Angela', 399, 3673, 399, to_date('01-04-2843', 'dd-mm-yyyy'));
-
-insert into TRIPS (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
-values ('Denis', 400, 1850, 400, to_date('02-06-2026', 'dd-mm-yyyy'));
+insert into TRIP (NAME, ID_TRIP, PRICE, ID_TRANSPORTATION, TRIP_DATE)
+values ('Jason', 400, 2730, 400, to_date('10-12-2246', 'dd-mm-yyyy'));
 
 commit;
 

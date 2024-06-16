@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2477
+Password=2859
 Database=
 DateFormat=
 CommitCount=0
@@ -13,7 +13,7 @@ InitScript=
 
 [Table]
 Owner=
-Name=TRIPS
+Name=TRIP
 Count=400
 
 [Record]
