@@ -13,6 +13,6 @@ WHERE
         SELECT t.id_trip 
         FROM trip t
         JOIN transportation tr ON t.id_transportation = tr.id_transportation
-        WHERE t.trip_date < ADD_MONTHS(SYSDATE, -12)
-        AND tr.number_of_passengers < 5
+        WHERE t.trip_date < ADD_MONTHS(SYSDATE, -6)
+        AND tr.number_of_passengers <22
     );

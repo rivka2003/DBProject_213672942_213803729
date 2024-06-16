@@ -13,10 +13,10 @@ WHERE
     id_destinations NOT IN (
         SELECT id_destinations 
         FROM trip 
-        WHERE price > 1000
+        WHERE price > &PRICE
         AND id_transportation IN (
             SELECT id_transportation 
             FROM transportation 
-            WHERE duration_time < ADD_MONTHS(SYSDATE, 6)
+            WHERE duration_time > ADD_MONTHS(SYSDATE, 6)
         )
     );

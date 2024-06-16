@@ -16,7 +16,7 @@ FROM
 JOIN 
     travelers_list tl ON t.id_trip = tl.id_trip
 WHERE 
-    t.trip_date BETWEEN :startDate AND :endDate
+    t.trip_date BETWEEN TO_DATE('&<name = "start Date" list= "select distinct trip_date from trip ORDER BY TRIP_DATE">', 'DD/MM/YYYY') AND TO_DATE('&<name = "end Date" list= "select distinct trip_date from trip ORDER BY TRIP_DATE">','DD/MM/YYYY')
 GROUP BY 
     t.name, t.trip_date
 ORDER BY 

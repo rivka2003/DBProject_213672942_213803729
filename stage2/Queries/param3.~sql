@@ -1,20 +1,28 @@
---Description/Story
---Scenario: The travel company needs to maintain a clean and efficient database by removing outdated data. Specifically, they want to delete records of travelers from trips that happened over a year ago.
+/*
+This query retrieves detailed information about travelers who joined trips in the past year, focusing on those who traveled on trips with more than 10 passengers and were guarded by someone named John. It fetches the traveler's name, year of birth, price paid, trip details, transportation details, guard details, and destination details for trips that occurred more than a year ago, and only includes travelers who are minors (under 18 years old).
+*/
 
---Purpose: The primary aim is to ensure that the database does not retain unnecessary historical data, which can improve database performance and make it easier to manage current and relevant information.
-
---Use Case:
---Database Maintenance: Regularly cleaning up old data helps in optimizing database performance and storage. It ensures that queries run faster and the database remains efficient.
---Data Relevance: Keeping only recent and relevant data makes it easier for the company to access and analyze information that is currently useful for operational decisions and reporting.
---Compliance and Privacy: Removing old travel records can also help in complying with data retention policies and privacy regulations, ensuring that personal data is not kept longer than necessary.
-
-DELETE FROM 
-    travelers_list
-WHERE 
-    id_trip = :tripId
-    AND id_travels = :travelerId
-    AND id_trip IN (
-        SELECT id_trip 
-        FROM trip 
-        WHERE trip_date < ADD_MONTHS(SYSDATE, -12)
-    );
+SELECT 
+    tl.id_travelers_list,
+    tl.price AS traveler_price,
+    trav.name AS traveler_name,
+    trav.year_of_birth,
+    trip_details.trip_name,
+    trip_details.trip_date,
+    trip_details.trip_price,
+    trans_details.number_of_passengers,
+    trans_details.driver,
+    guard_details.guard_name,
+    dest_details.destination_name,
+    dest_details.destination_description
+FROM 
+    travelers_list tl
+JOIN travelers trav ON tl.id_travels = trav.id_travels
+JOIN (
+    SELECT 
+        t.id_trip,
+        t.name AS trip_name,
+        t.trip_date,
+        t.price AS trip_price,
+        t.id_transportation
+    FRO

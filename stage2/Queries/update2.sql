@@ -9,21 +9,17 @@
 --Data Accuracy: Keeping transportation schedules accurate and reflective of real-world changes helps in better decision-making and operational efficiency.
 
 UPDATE 
-    transportation
+    trip
 SET 
-    duration_time = ADD_MONTHS(duration_time, 3)
+    price = price * 1.1
 WHERE 
-    id_transportation IN (
-        SELECT id_transportation 
-        FROM trip 
-        WHERE trip_date > TRUNC(SYSDATE)
-        AND id_trip IN (
-            SELECT id_trip 
-            FROM travelers_list 
-            WHERE id_travels IN (
-                SELECT id_travels 
-                FROM travelers 
-                WHERE year_of_birth > 1980
-            )
+    id_trip IN (
+        SELECT id_trip 
+        FROM guided_by 
+        WHERE id_guard = (
+            SELECT id_guard 
+            FROM guard 
+            WHERE name = &<name = "name of the guard" list = "select distinct name from guard" hint ="guard name" >
         )
-    );
+    )
+    AND trip_date > SYSDATE;
