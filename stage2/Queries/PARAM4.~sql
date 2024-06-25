@@ -1,24 +1,13 @@
---Description/Story
---Scenario: The travel company wants to ensure that guards' contact information is up-to-date, especially for upcoming trips. This query specifically targets guards who are assigned to trips happening in the future.
-
---Purpose: The primary aim is to maintain accurate and current contact details for guards, ensuring smooth communication and coordination for future trips.
-
---Use Case:
---Contact Information Update: By updating guards' phone numbers, the company ensures that communication channels remain open and efficient, critical for coordinating trips and addressing any emergencies.
-
-Trip Preparedness: Having correct contact information for guards scheduled for future trips helps in ensuring that all necessary arrangements and coordination are in place before the trip dates.
-UPDATE 
-    guard
-SET 
-    number_phone = :newPhoneNumber
+/* The purpose of the query is to calculate the number of travelers in each trip whose price falls within the price range specified by the parameters ":min_price" and ":max_price". The query compares the prices of trips to the parameters and displays the result grouped by trip names. */
+SELECT 
+    tr.name AS trip_name, 
+    COUNT(tl.id_travels) AS number_of_travelers
+FROM 
+    trip tr
+JOIN 
+    travelers_list tl ON tr.id_trip = tl.id_trip
 WHERE 
-    id_guard = :guardId
-    AND id_guard IN (
-        SELECT id_guard 
-        FROM guided_by 
-        WHERE id_trip IN (
-            SELECT id_trip 
-            FROM trip 
-            WHERE trip_date > SYSDATE
-        )
-    );
+    tr.price > &min_price
+    AND tr.price < &max_price
+GROUP BY 
+    tr.name;   

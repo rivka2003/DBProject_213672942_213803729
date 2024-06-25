@@ -14,7 +14,7 @@ SELECT
     EXTRACT(DAY FROM t.trip_date) AS TripDay,
     EXTRACT(MONTH FROM t.trip_date) AS TripMonth,
     EXTRACT(YEAR FROM t.trip_date) AS TripYear,
-    (SELECT AVG(price) FROM trip WHERE id_transportation = t.id_transportation) AS AvgPriceForTransport
+    (SELECT AVG(price) FROM trip WHERE id_transportation = t.id_transportation) AS Avg_Price_For_Transport
 FROM 
     trip t
 JOIN 

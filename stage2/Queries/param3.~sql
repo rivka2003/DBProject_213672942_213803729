@@ -1,28 +1,12 @@
-/*
-This query retrieves detailed information about travelers who joined trips in the past year, focusing on those who traveled on trips with more than 10 passengers and were guarded by someone named John. It fetches the traveler's name, year of birth, price paid, trip details, transportation details, guard details, and destination details for trips that occurred more than a year ago, and only includes travelers who are minors (under 18 years old).
-*/
-
+/* The purpose of the query is to calculate the number of travelers in each trip based on a provided trip ID. It retrieves this information by joining the "trip" table with the "travelers_list" table using the trip ID from the list, and then groups the results by trip names to display the count of travelers for each trip. */
 SELECT 
-    tl.id_travelers_list,
-    tl.price AS traveler_price,
-    trav.name AS traveler_name,
-    trav.year_of_birth,
-    trip_details.trip_name,
-    trip_details.trip_date,
-    trip_details.trip_price,
-    trans_details.number_of_passengers,
-    trans_details.driver,
-    guard_details.guard_name,
-    dest_details.destination_name,
-    dest_details.destination_description
+    tr.name AS trip_name, 
+    COUNT(tl.id_travels) AS number_of_travelers
 FROM 
-    travelers_list tl
-JOIN travelers trav ON tl.id_travels = trav.id_travels
-JOIN (
-    SELECT 
-        t.id_trip,
-        t.name AS trip_name,
-        t.trip_date,
-        t.price AS trip_price,
-        t.id_transportation
-    FRO
+    trip tr
+JOIN 
+    travelers_list tl ON tr.id_trip = tl.id_trip
+WHERE 
+    tr.id_trip IN (&trip_ids)
+GROUP BY 
+    tr.name;

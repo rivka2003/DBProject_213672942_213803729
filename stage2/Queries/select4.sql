@@ -14,5 +14,3 @@ JOIN
     travelers_list tl ON tr.id_trip = tl.id_trip
 GROUP BY 
     t.driver, EXTRACT(MONTH FROM tr.trip_date)
-HAVING 
-    COUNT(tl.id_travels) > 2  -- Filter for trips with more than 2 travele

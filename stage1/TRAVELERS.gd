@@ -4,7 +4,7 @@ Version=1
 
 [Preferences]
 Username=
-Password=2185
+Password=2592
 Database=
 DateFormat=
 CommitCount=100
@@ -12,9 +12,9 @@ CommitDelay=0
 InitScript=
 
 [Table]
-Owner=
+Owner=C##RIVKA
 Name=TRAVELERS
-Count=400
+Count=100
 
 [Record]
 Name=NAME
@@ -34,6 +34,6 @@ Master=
 Name=ID_TRAVELS
 Type=NUMBER
 Size=
-Data=Sequence(1,1,400)
+Data=Sequence(500,1,600)
 Master=
 
