@@ -1,0 +1,88 @@
+-- יצירת מבטים עבור פרויקט משולב
+
+-- מבט ראשון: פרטי המורים, המאבטחים והנסיעות שלהם
+CREATE VIEW TeacherGuardTrips AS
+SELECT 
+  tg.Teacher_guard_ID,
+  tg.Last_Name,
+  tg.First_Name,
+  tg.BONUS,
+  tg.HOURLY_SALARY,
+  tg.number_phone,
+  t.id_trip,
+  t.name AS trip_name,
+  t.price AS trip_price,
+  d.name AS destination_name,
+  d.description AS destination_description
+FROM 
+  TEACHER_GUARD tg
+JOIN 
+  trip t ON tg.Teacher_guard_ID = t.Teacher_guard_ID
+JOIN 
+  destinations d ON t.id_destinations = d.id_destinations;
+
+-- מבט שני: רשימת תלמידים ופרטי הנסיעות שלהם
+CREATE VIEW StudentTravelDetails AS
+SELECT 
+  st.Student-travelers_ID,
+  st.First_Name,
+  st.Last_Name,
+  st.birth_date,
+  st.Phone,
+  st.fatherName,
+  st.motherName,
+  t.id_trip,
+  t.name AS trip_name,
+  t.price AS trip_price,
+  tg.Last_Name AS TeacherGuard_Last_Name,
+  tg.First_Name AS TeacherGuard_First_Name,
+  d.name AS destination_name,
+  d.description AS destination_description
+FROM 
+  Student_travelers st
+JOIN 
+  travelers_list tl ON st.Student-travelers_ID = tl.Student_travelers_ID
+JOIN 
+  trip t ON tl.id_trip = t.id_trip
+JOIN 
+  TEACHER_GUARD tg ON t.Teacher-guard_ID = tg.Teacher_guard_ID
+JOIN 
+  destinations d ON t.id_destinations = d.id_destinations;
+
+-- שאילתות על המבט הראשון (TeacherGuardTrips)
+
+-- שאילתה 1: הצגת כל המורים עם נסיעות שמחירן מעל 500
+SELECT * 
+FROM TeacherGuardTrips
+WHERE trip_price > 500;
+
+-- שאילתה 2: הצגת שמות ומספרי טלפון של כל המורים והמאבטחים שמובילים נסיעות לאתר מסוים
+SELECT 
+  First_Name,
+  Last_Name,
+  number_phone,
+  destination_name
+FROM 
+  TeacherGuardTrips
+WHERE 
+  destination_name = 'אתר מסוים';  -- החלף בשם האתר הרצוי
+
+-- שאילתות על המבט השני (StudentTravelDetails)
+
+-- שאילתה 1: הצגת כל התלמידים שמשתתפים בנסיעות שמחירן מעל 300
+SELECT * 
+FROM StudentTravelDetails
+WHERE trip_price > 300;
+
+-- שאילתה 2: הצגת שמות תלמידים ומספרי טלפון שלהם שמשתתפים בנסיעות בהובלת מורה או מאבטח מסוים
+SELECT 
+  First_Name,
+  Last_Name,
+  Phone,
+  TeacherGuard_Last_Name,
+  TeacherGuard_First_Name
+FROM 
+  StudentTravelDetails
+WHERE 
+  TeacherGuard_Last_Name = 'שם משפחה'  -- החלף בשם משפחה הרצוי
+  AND TeacherGuard_First_Name = 'שם פרטי';  -- החלף בשם פרטי הרצוי
